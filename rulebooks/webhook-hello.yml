@@ -1,6 +1,7 @@
 ---
 - name: Listen for events on a webhook
   hosts: all
+  become: true
 
   ## Define our source for events
 

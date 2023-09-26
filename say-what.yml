@@ -1,5 +1,5 @@
 - hosts: localhost
-  connection: local
+  become: true
   tasks:
     - debug:
         msg: "Thank you, my friend!"
