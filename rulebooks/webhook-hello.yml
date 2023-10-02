@@ -20,5 +20,5 @@
 
       action:
         run_job_template:
-          name: say-what.yml
+          name: say-what
           organization: Default
